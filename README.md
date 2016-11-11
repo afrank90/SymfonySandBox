@@ -1,2 +1,2 @@
 [Symfony Sand Box]
-Author: Arthur Frank
+Author: Arthur Frank.
