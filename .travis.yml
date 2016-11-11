@@ -1,7 +1,6 @@
 language: php
 sudo: false
 php:
-- 5.4
 - 5.6
 - 7.0
 branches:
@@ -13,7 +12,3 @@ matrix:
   - env: ALLOW_FAILURE=true
 install:
 - composer install --optimize-autoloader --prefer-dist --no-interaction
-script:
-- make codestyle
-- make security-check
-- make test
